@@ -75,6 +75,5 @@ import VuetifyLogo from '~/components/VuetifyLogo.vue'
   }
 })
 
-export default class Index extends Vue {
-}
+export default class Index extends Vue {}
 </script>
