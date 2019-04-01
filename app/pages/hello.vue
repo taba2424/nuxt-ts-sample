@@ -2,7 +2,7 @@
   <div>
     <h1>Hello {{ message }}!!</h1>
 
-    <input v-model="message" type="text">
+    <input v-model="message" type="text" test-data="input-message">
   </div>
 </template>
 

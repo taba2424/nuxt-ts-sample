@@ -15,7 +15,7 @@ import { Component, Vue, Prop, Emit } from 'vue-property-decorator'
 
 export default class TheCount extends Vue {
   /* props */
-  @Prop() count?: number
+  @Prop() count: number = 0
 
   /* emit */
   @Emit('click')
