@@ -7,5 +7,8 @@ module.exports = {
   },
   extends: [
     '@nuxtjs'
-  ]
+  ],
+  rules: {
+    'no-console': 'off'
+  }
 }

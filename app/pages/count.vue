@@ -1,17 +1,17 @@
 <template>
-  <div>
-    <p>クリック回数: {{ count }}</p>
-
-    <button @click="increment">
-      カウントを増やす
-    </button>
-  </div>
+  <the-count :count="count" @click="increment" />
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 
-@Component({})
+import TheCount from '~/components/TheCount.vue'
+
+@Component({
+  components: {
+    TheCount
+  }
+})
 
 export default class extends Vue {
   /* data */
